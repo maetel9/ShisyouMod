@@ -1,5 +1,6 @@
 package com.github.maetel9.shisyoumod.item.tool;
 
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
@@ -15,4 +16,5 @@ public class ShisyouItem extends SwordItem {
     public boolean isDamageable(ItemStack stack) {
         return false;
     }
+
 }
