@@ -46,7 +46,6 @@ public class ShisyouModRecipeProvider extends RecipeProvider {
                     .requires(Items.POTATO)
                     .requires(Items.CARROT)
                     .requires(meatItem)
-                    //.requires(Items.BOWL) //ボウルは現在不要にしています
                     .unlockedBy("has_" + ShisyouModItems.CURRY_RUEX.getId().getPath(), has(ShisyouModItems.CURRY_RUEX.get()))
                     .save(consumer, new ResourceLocation(ShisyouMod.MOD_ID, "curry_rice_" + meatName));
         }
