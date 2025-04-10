@@ -27,4 +27,15 @@ public class CurryRiceItem extends Item {
 
         return stack;
     }
+
+    @Override
+    public void onCraftedBy(ItemStack stack, Level world, Player player) {
+        if (!world.isClientSide && !player.getAbilities().instabuild) {
+            ItemStack bowl = new ItemStack(Items.BOWL);
+            if (!player.getInventory().add(bowl)) {
+                player.drop(bowl, false);
+            }
+        }
+        super.onCraftedBy(stack, world, player);
+    }
 }
