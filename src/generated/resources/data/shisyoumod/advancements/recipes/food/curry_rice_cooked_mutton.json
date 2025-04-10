@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_curry_ruex": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "shisyoumod:curry_ruex"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "shisyoumod:curry_rice_cooked_mutton"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_curry_ruex",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "shisyoumod:curry_rice_cooked_mutton"
+    ]
+  },
+  "sends_telemetry_event": false
+}

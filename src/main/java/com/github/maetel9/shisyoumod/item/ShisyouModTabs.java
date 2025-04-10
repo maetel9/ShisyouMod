@@ -20,8 +20,11 @@ public class ShisyouModTabs {
                     .title(Component.translatable("creativetabs.shisyou_tab"))
                     //タブのアイコン
                     .icon(ShisyouModItems.SHISYOU.get()::getDefaultInstance)
+                    //アイテムを追加
                     .displayItems(((pParameters, pOutput) -> {
                         pOutput.accept(ShisyouModItems.SHISYOU.get());
+                        pOutput.accept(ShisyouModItems.CURRY_RICE.get());
+                        pOutput.accept(ShisyouModItems.CURRY_RUEX.get());
                     }))
                     .build());
 
