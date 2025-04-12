@@ -53,5 +53,65 @@ import java.util.List;
                     new ItemStack(Items.EMERALD, 4),
                     new ItemStack(ShisyouModItems.CURRY_RUEX.get(), 12),
                     64, 2, 0.05F));
+
+        // 1-2
+        event.getGenericTrades().add((entity, random) -> new MerchantOffer(
+                new ItemStack(Items.EMERALD, 2),
+                new ItemStack(ShisyouModItems.CURRY_RUEX.get(), 8),
+                64, 2, 0.05F));
+
+        // 2-2
+        event.getGenericTrades().add(new BasicItemListing(
+                new ItemStack(Items.EMERALD, 3),
+                new ItemStack(ShisyouModItems.CURRY_RUEX.get(), 10),
+                64, 2, 0.05F));
+
+        // 3-2
+        event.getGenericTrades().add(new BasicItemListing(
+                new ItemStack(Items.EMERALD, 4),
+                new ItemStack(ShisyouModItems.CURRY_RUEX.get(), 12),
+                64, 2, 0.05F));
+
+        // 1-3
+        event.getGenericTrades().add((entity, random) -> new MerchantOffer(
+                new ItemStack(Items.EMERALD, 2),
+                new ItemStack(ShisyouModItems.CURRY_RUEX.get(), 8),
+                64, 2, 0.05F));
+
+        // 2-3
+        event.getGenericTrades().add(new BasicItemListing(
+                new ItemStack(Items.EMERALD, 3),
+                new ItemStack(ShisyouModItems.CURRY_RUEX.get(), 10),
+                64, 2, 0.05F));
+
+        // 3-3
+        event.getGenericTrades().add(new BasicItemListing(
+                new ItemStack(Items.EMERALD, 4),
+                new ItemStack(ShisyouModItems.CURRY_RUEX.get(), 12),
+                64, 2, 0.05F));
+
+        // 1-4
+        event.getGenericTrades().add((entity, random) -> new MerchantOffer(
+                new ItemStack(Items.EMERALD, 2),
+                new ItemStack(ShisyouModItems.CURRY_RUEX.get(), 8),
+                64, 2, 0.05F));
+
+        // 2-4
+        event.getGenericTrades().add(new BasicItemListing(
+                new ItemStack(Items.EMERALD, 3),
+                new ItemStack(ShisyouModItems.CURRY_RUEX.get(), 10),
+                64, 2, 0.05F));
+
+        // 3-4
+        event.getGenericTrades().add(new BasicItemListing(
+                new ItemStack(Items.EMERALD, 4),
+                new ItemStack(ShisyouModItems.CURRY_RUEX.get(), 12),
+                64, 2, 0.05F));
+
+        // 当たり枠
+        event.getGenericTrades().add(new BasicItemListing(
+                new ItemStack(Items.EMERALD, 2),
+                new ItemStack(ShisyouModItems.CURRY_RUEX.get(), 12),
+                64, 2, 0.05F));
     }
 }
