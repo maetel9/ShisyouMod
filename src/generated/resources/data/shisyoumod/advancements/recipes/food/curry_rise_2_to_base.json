@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_curry_rise_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "shisyoumod:curry_rise_2"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "shisyoumod:curry_rise_2_to_base"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_curry_rise_2",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "shisyoumod:curry_rise_2_to_base"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shisyoumod:curry_rise_1"
+    }
+  ],
+  "result": {
+    "item": "shisyoumod:curry_rise_2"
+  }
+}

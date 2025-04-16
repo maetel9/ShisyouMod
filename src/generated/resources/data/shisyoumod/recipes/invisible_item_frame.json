@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:item_frame"
+    }
+  ],
+  "result": {
+    "item": "shisyoumod:invisible_item_frame"
+  }
+}
