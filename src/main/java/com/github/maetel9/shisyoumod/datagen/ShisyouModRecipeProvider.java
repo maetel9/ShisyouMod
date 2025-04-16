@@ -3,14 +3,10 @@ package com.github.maetel9.shisyoumod.datagen;
 import com.github.maetel9.shisyoumod.ShisyouMod;
 import com.github.maetel9.shisyoumod.item.tool.ShisyouModItems;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.FinishedRecipe;
-import net.minecraft.data.recipes.RecipeCategory;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.ShapelessRecipeBuilder;
+import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.level.ItemLike;
 
 import java.util.Map;
 import java.util.function.Consumer;
@@ -40,7 +36,7 @@ public class ShisyouModRecipeProvider extends RecipeProvider {
             String meatName = entry.getKey();
             Item meatItem = entry.getValue();
 
-            ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ShisyouModItems.CURRY_RICE.get(), 4)
+            ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ShisyouModItems.CURRY_RISE.get(), 4)
                     .requires(ShisyouModItems.CURRY_RUEX.get(), 2)
                     .requires(Items.WHEAT, 2)
                     .requires(Items.POTATO)
@@ -49,5 +45,26 @@ public class ShisyouModRecipeProvider extends RecipeProvider {
                     .unlockedBy("has_" + ShisyouModItems.CURRY_RUEX.getId().getPath(), has(ShisyouModItems.CURRY_RUEX.get()))
                     .save(consumer, new ResourceLocation(ShisyouMod.MOD_ID, "curry_rice_" + meatName));
         }
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.DECORATIONS, ShisyouModItems.INVISIBLE_ITEM_FRAME.get())
+                .requires(Items.ITEM_FRAME)
+                .unlockedBy("has_item_frame", has(Items.ITEM_FRAME))
+                .save(consumer, new ResourceLocation(ShisyouMod.MOD_ID, "invisible_item_frame"));
+//curry_rise_1 → curry_rise_2
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ShisyouModItems.CURRY_RISE_1.get())
+                .requires(ShisyouModItems.CURRY_RISE.get())
+                .unlockedBy("has_curry_rise", has(ShisyouModItems.CURRY_RISE.get()))
+                .save(consumer, new ResourceLocation(ShisyouMod.MOD_ID, "curry_rise_to_1"));
+//curry_rise_1 → curry_rise_2
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ShisyouModItems.CURRY_RISE_2.get())
+                .requires(ShisyouModItems.CURRY_RISE_1.get())
+                .unlockedBy("has_curry_rise_1", has(ShisyouModItems.CURRY_RISE_1.get()))
+                .save(consumer, new ResourceLocation(ShisyouMod.MOD_ID, "curry_rise_1_to_2"));
+//curry_rise_2 → curry_rise
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ShisyouModItems.CURRY_RISE.get())
+                .requires(ShisyouModItems.CURRY_RISE_2.get())
+                .unlockedBy("has_curry_rise_2", has(ShisyouModItems.CURRY_RISE_2.get()))
+                .save(consumer, new ResourceLocation(ShisyouMod.MOD_ID, "curry_rise_2_to_base"));
+
     }
 }

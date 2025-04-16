@@ -1,4 +1,5 @@
-// 1.20.1	2025-04-11T05:53:49.9868862	Recipes
+// 1.20.1	2025-04-16T10:12:42.335384	Recipes
+4ef74369678fd7bffb932f435cc0ca3ac7a9692b data/shisyoumod/advancements/recipes/decorations/invisible_item_frame.json
 68880109f8ff19de22e5545921f4fd6e4667fa53 data/shisyoumod/advancements/recipes/food/curry_rice_beef.json
 94b10f238a986a81dab283b0c400613d6d62441f data/shisyoumod/advancements/recipes/food/curry_rice_chicken.json
 3ca330cd40cc71c2b6cc66a5b0c9af239bec2d64 data/shisyoumod/advancements/recipes/food/curry_rice_cooked_beef.json
@@ -9,6 +10,9 @@ efb4d22bda18ac305ebdd44927eede2d78bdd0bd data/shisyoumod/advancements/recipes/fo
 e2a03eef293bea5be19c97875de19e642e62d0be data/shisyoumod/advancements/recipes/food/curry_rice_mutton.json
 8ff3f86292f3398869fd35ac32b1fc5db635bf76 data/shisyoumod/advancements/recipes/food/curry_rice_porkchop.json
 692ff3f355cdee5254ab7aa057fb6f723b2aad80 data/shisyoumod/advancements/recipes/food/curry_rice_rabbit.json
+a174a277b402e7e4db9ae3a22934c396d344452d data/shisyoumod/advancements/recipes/food/curry_rise_1_to_2.json
+b2cc835faf0a4a1d5638f2055fb40028a2a8b195 data/shisyoumod/advancements/recipes/food/curry_rise_2_to_base.json
+77cae215bf2f9b6653f8bb3a880f30dec1126e6e data/shisyoumod/advancements/recipes/food/curry_rise_to_1.json
 2306ead837eb9502d75690f92a20631128f9bc5e data/shisyoumod/recipes/curry_rice_beef.json
 df8b3f19a9ca3df9d6691dcfb087e5f4bc553391 data/shisyoumod/recipes/curry_rice_chicken.json
 aae7e9f13ded33b55f70bb3898f2292d9762cf25 data/shisyoumod/recipes/curry_rice_cooked_beef.json
@@ -19,3 +23,7 @@ ae33f919ed501905a141c14422b1fb7fce91777c data/shisyoumod/recipes/curry_rice_cook
 825631ef5396395b5f36105f8b2e9affe6b90b3b data/shisyoumod/recipes/curry_rice_mutton.json
 b513cb66ff6b4d7ed8bf07909b5509cd26c2845a data/shisyoumod/recipes/curry_rice_porkchop.json
 dff557403e0c691829b68fdf430f1961cde3e43a data/shisyoumod/recipes/curry_rice_rabbit.json
+646edae2f2534720296f1925899c2514cbdd239b data/shisyoumod/recipes/curry_rise_1_to_2.json
+8185f96a9940a2b33261233cf49cd29cb6aa12de data/shisyoumod/recipes/curry_rise_2_to_base.json
+131e0a077bfb2d3e5bb9eda6d4ceeab095d9e527 data/shisyoumod/recipes/curry_rise_to_1.json
+66f49284c273ffb7e7ac288eef9db84d35c5263d data/shisyoumod/recipes/invisible_item_frame.json

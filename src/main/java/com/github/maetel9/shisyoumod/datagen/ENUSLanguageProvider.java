@@ -15,8 +15,11 @@ public class ENUSLanguageProvider extends LanguageProvider {
     @Override
     protected void addTranslations() {
         addItem(ShisyouModItems.SHISYOU, "Shisyou");
-        addItem(ShisyouModItems.CURRY_RICE, "Curry Rise");
+        addItem(ShisyouModItems.CURRY_RISE, "Curry Rise");
         addItem(ShisyouModItems.CURRY_RUEX, "Curry Ruex");
+        addItem(ShisyouModItems.CURRY_RISE_1, "Curry Rise1");
+        addItem(ShisyouModItems.CURRY_RISE_2, "Curry Rise2");
+        addItem(ShisyouModItems.INVISIBLE_ITEM_FRAME, "Invisible Item Frame");
 
         add("creativetabs.shisyoumod_tab", "ShisyouMod");
 

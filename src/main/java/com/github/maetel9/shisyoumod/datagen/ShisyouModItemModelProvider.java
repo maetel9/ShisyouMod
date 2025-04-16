@@ -13,7 +13,7 @@ public class ShisyouModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        basicItem(ShisyouModItems.CURRY_RICE.get());
+        basicItem(ShisyouModItems.CURRY_RISE.get());
         basicItem(ShisyouModItems.CURRY_RUEX.get());
     }
 }

@@ -23,8 +23,11 @@ public class ShisyouModTabs {
                     //アイテムを追加
                     .displayItems(((pParameters, pOutput) -> {
                         pOutput.accept(ShisyouModItems.SHISYOU.get());
-                        pOutput.accept(ShisyouModItems.CURRY_RICE.get());
+                        pOutput.accept(ShisyouModItems.CURRY_RISE.get());
                         pOutput.accept(ShisyouModItems.CURRY_RUEX.get());
+                        pOutput.accept(ShisyouModItems.CURRY_RISE_1.get());
+                        pOutput.accept(ShisyouModItems.CURRY_RISE_2.get());
+                        pOutput.accept(ShisyouModItems.INVISIBLE_ITEM_FRAME.get());
                     }))
                     .build());
 

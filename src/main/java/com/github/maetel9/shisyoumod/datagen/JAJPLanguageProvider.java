@@ -15,8 +15,12 @@ public class JAJPLanguageProvider extends LanguageProvider {
     @Override
     protected void addTranslations() {
         addItem(ShisyouModItems.SHISYOU, "師匠");
-        addItem(ShisyouModItems.CURRY_RICE, "かれー");
+        addItem(ShisyouModItems.CURRY_RISE, "かれー");
         addItem(ShisyouModItems.CURRY_RUEX, "カレールー");
+        addItem(ShisyouModItems.CURRY_RISE_1, "かれー1");
+        addItem(ShisyouModItems.CURRY_RISE_2, "かれー2");
+        addItem(ShisyouModItems.INVISIBLE_ITEM_FRAME, "透明フレーム");
+
 
         add("creativetabs.shisyoumod_tab", "師匠Mod");
 

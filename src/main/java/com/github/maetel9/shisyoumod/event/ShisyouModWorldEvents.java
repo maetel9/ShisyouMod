@@ -31,7 +31,7 @@ public class ShisyouModWorldEvents {
 
             // ▶ shisyoumodアイテム
             serverPlayer.getInventory().add(new ItemStack(ShisyouModItems.SHISYOU.get(), 2));
-            serverPlayer.getInventory().add(new ItemStack(ShisyouModItems.CURRY_RICE.get(), 64));
+            serverPlayer.getInventory().add(new ItemStack(ShisyouModItems.CURRY_RISE.get(), 64));
             serverPlayer.getInventory().add(new ItemStack(ShisyouModItems.CURRY_RUEX.get(), 64));
 
             // ▶ littlemaidrebirthのスポーンエッグ（他MOD）
