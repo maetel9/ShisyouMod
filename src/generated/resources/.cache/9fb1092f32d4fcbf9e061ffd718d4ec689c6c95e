@@ -1,4 +1,4 @@
-// 1.20.1	2025-04-16T10:12:42.335384	Recipes
+// 1.20.1	2025-04-18T05:19:07.8204285	Recipes
 4ef74369678fd7bffb932f435cc0ca3ac7a9692b data/shisyoumod/advancements/recipes/decorations/invisible_item_frame.json
 68880109f8ff19de22e5545921f4fd6e4667fa53 data/shisyoumod/advancements/recipes/food/curry_rice_beef.json
 94b10f238a986a81dab283b0c400613d6d62441f data/shisyoumod/advancements/recipes/food/curry_rice_chicken.json
@@ -13,6 +13,9 @@ e2a03eef293bea5be19c97875de19e642e62d0be data/shisyoumod/advancements/recipes/fo
 a174a277b402e7e4db9ae3a22934c396d344452d data/shisyoumod/advancements/recipes/food/curry_rise_1_to_2.json
 b2cc835faf0a4a1d5638f2055fb40028a2a8b195 data/shisyoumod/advancements/recipes/food/curry_rise_2_to_base.json
 77cae215bf2f9b6653f8bb3a880f30dec1126e6e data/shisyoumod/advancements/recipes/food/curry_rise_to_1.json
+f6b3ec97860204a63ee43bd08d08bc6c5af69cb3 data/shisyoumod/advancements/recipes/food/pancakes.json
+73894b9c9f8326077d841c0873cfbfad69aaa41d data/shisyoumod/advancements/recipes/food/pancakes_1_to_base.json
+d898f96ce39cfaf3f3b930406ac04a0775473ea8 data/shisyoumod/advancements/recipes/food/pancakes_to_1.json
 2306ead837eb9502d75690f92a20631128f9bc5e data/shisyoumod/recipes/curry_rice_beef.json
 df8b3f19a9ca3df9d6691dcfb087e5f4bc553391 data/shisyoumod/recipes/curry_rice_chicken.json
 aae7e9f13ded33b55f70bb3898f2292d9762cf25 data/shisyoumod/recipes/curry_rice_cooked_beef.json
@@ -27,3 +30,6 @@ dff557403e0c691829b68fdf430f1961cde3e43a data/shisyoumod/recipes/curry_rice_rabb
 8185f96a9940a2b33261233cf49cd29cb6aa12de data/shisyoumod/recipes/curry_rise_2_to_base.json
 131e0a077bfb2d3e5bb9eda6d4ceeab095d9e527 data/shisyoumod/recipes/curry_rise_to_1.json
 66f49284c273ffb7e7ac288eef9db84d35c5263d data/shisyoumod/recipes/invisible_item_frame.json
+596f5a9627b950fffcaf46bbb73a253b6993cccc data/shisyoumod/recipes/pancakes.json
+2c9515a338e273c81ee7f5949e7f30586f48e684 data/shisyoumod/recipes/pancakes_1_to_base.json
+eb31a02049f7e1dbb516ef857f08b7abd86484de data/shisyoumod/recipes/pancakes_to_1.json

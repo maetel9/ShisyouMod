@@ -15,5 +15,6 @@ public class ShisyouModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         basicItem(ShisyouModItems.CURRY_RISE.get());
         basicItem(ShisyouModItems.CURRY_RUEX.get());
+        basicItem(ShisyouModItems.PANCAKES.get());
     }
 }

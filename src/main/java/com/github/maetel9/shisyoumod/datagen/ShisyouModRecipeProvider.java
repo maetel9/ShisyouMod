@@ -66,5 +66,30 @@ public class ShisyouModRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_curry_rise_2", has(ShisyouModItems.CURRY_RISE_2.get()))
                 .save(consumer, new ResourceLocation(ShisyouMod.MOD_ID, "curry_rise_2_to_base"));
 
+        //パンケーキ
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ShisyouModItems.PANCAKES.get(), 3)
+                .pattern("wsw")
+                .pattern("mb ")
+                .pattern("   ")
+                .define('w', Items.WHEAT)
+                .define('s', Items.SUGAR)
+                .define('m', Items.MILK_BUCKET)
+                .define('b', Items.EGG)
+                .unlockedBy("has_milk", has(Items.MILK_BUCKET))
+                .save(consumer, new ResourceLocation(ShisyouMod.MOD_ID, "pancakes"));
+
+
+        // pancakes → pancakes_1
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ShisyouModItems.PANCAKES_1.get())
+                .requires(ShisyouModItems.PANCAKES.get())
+                .unlockedBy("has_pancakes", has(ShisyouModItems.PANCAKES.get()))
+                .save(consumer, new ResourceLocation(ShisyouMod.MOD_ID, "pancakes_to_1"));
+
+        // pancakes_1 → pancakes（戻す）
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ShisyouModItems.PANCAKES.get())
+                .requires(ShisyouModItems.PANCAKES_1.get())
+                .unlockedBy("has_pancakes_1", has(ShisyouModItems.PANCAKES_1.get()))
+                .save(consumer, new ResourceLocation(ShisyouMod.MOD_ID, "pancakes_1_to_base"));
+
     }
 }

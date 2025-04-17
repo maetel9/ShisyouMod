@@ -19,6 +19,8 @@ public class ENUSLanguageProvider extends LanguageProvider {
         addItem(ShisyouModItems.CURRY_RUEX, "Curry Ruex");
         addItem(ShisyouModItems.CURRY_RISE_1, "Curry Rise1");
         addItem(ShisyouModItems.CURRY_RISE_2, "Curry Rise2");
+        addItem(ShisyouModItems.PANCAKES, "pancakes");
+        addItem(ShisyouModItems.PANCAKES_1, "pancakes1");
         addItem(ShisyouModItems.INVISIBLE_ITEM_FRAME, "Invisible Item Frame");
 
         add("creativetabs.shisyoumod_tab", "ShisyouMod");

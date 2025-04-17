@@ -27,6 +27,13 @@ public class ShisyouModItems {
                     .saturationMod(1.2f) //隠し満腹度(金にんじんと同じ)
                     .build())));
 
+    //パンケーキを追加
+    public static final RegistryObject<Item> PANCAKES = ITEMS.register("pancakes",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
+                    .nutrition(6) //満腹度
+                    .saturationMod(0.8f) //隠し満腹度
+                    .build())));
+
     //カレールーを追加
     public static final RegistryObject<Item> CURRY_RUEX = ITEMS.register("curry_ruex",
             () -> new Item(new Item.Properties()));
@@ -37,6 +44,10 @@ public class ShisyouModItems {
 
     //カレーの３Dモデル２
     public static final RegistryObject<Item> CURRY_RISE_2 = ITEMS.register("curry_rise_2",
+            () -> new Item(new Item.Properties()));
+
+    //パンケーキの３Dモデル１
+    public static final RegistryObject<Item> PANCAKES_1 = ITEMS.register("pancakes_1",
             () -> new Item(new Item.Properties()));
 
     //透明な額縁の追加

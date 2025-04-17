@@ -19,6 +19,8 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addItem(ShisyouModItems.CURRY_RUEX, "カレールー");
         addItem(ShisyouModItems.CURRY_RISE_1, "かれー1");
         addItem(ShisyouModItems.CURRY_RISE_2, "かれー2");
+        addItem(ShisyouModItems.PANCAKES, "パンケーキ");
+        addItem(ShisyouModItems.PANCAKES_1, "パンケーキ1");
         addItem(ShisyouModItems.INVISIBLE_ITEM_FRAME, "透明フレーム");
 
 
